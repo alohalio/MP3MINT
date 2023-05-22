@@ -39,15 +39,15 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <>
-          <Navbar expand="lg" style={{backgroundColor: '#ffcc00'}}>
-            <Container style={{backgroundColor: '#ffcc00'}}>
+          <Navbar expand="lg">
+            <Container>
               <Navbar.Brand
                 href="/"
                 style={{
                   fontWeight: '500',
                   color: 'black'}}
               >
-                <img src={logo} width="40" height="40" className="" alt=""/>
+                <img src={logo} width="100" height="100" className="" alt=""/>
                 &nbsp; MP3 MINT
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
